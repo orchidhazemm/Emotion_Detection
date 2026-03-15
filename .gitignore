@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Downloaded zip (too large for GitHub)
+*.zip
+
+# Large model weights (GitHub 100MB file limit)
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Data (uncomment if you don't want to push large datasets)
+# *.csv
+# *.json
+# data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
